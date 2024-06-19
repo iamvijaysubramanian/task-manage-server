@@ -120,32 +120,6 @@ Deletes a task by ID.
 # Authentication
 
 =======
-# POST /api/tasks/
-Creates a new task.
-Request Body:
-json:
-{
-  "title": "Task Title",
-  "description": "Task Description",
-  "status": "pending",
-  "dueDate": "2024-06-30",
-  "priority": "medium"
-}
-
-# PUT /api/tasks/
-Updates an existing task.
-Request Body (can include any or all of these fields):
-json:
-{
-  "title": "Updated Task Title",
-  "description": "Updated Task Description",
-  "status": "completed",
-  "dueDate": "2024-07-15",
-  "priority": "high"
-}
-
-# DELETE /api/tasks/
-Deletes a task by ID.
 
 # POST /api/auth/register
 
